@@ -5,8 +5,6 @@ public class Lab2 {
     public static void main(String[] args) {
         System.out.println("The sum is: " + sum(3, 5));
 
-        int q = 3;
-
         memberVariable = sum(7,8);
         System.out.println(memberVariable);
 
