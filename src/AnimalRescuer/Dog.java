@@ -3,6 +3,7 @@ package AnimalRescuer;
 public class Dog {
 
 
+
     String name = "Rex";
     String color = "white";
     float age = 0.55f;

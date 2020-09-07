@@ -22,5 +22,7 @@ public class AppMain {
         myThirdDog.name = "Grivei";
         System.out.println("Third dog name: " + myThirdDog.name);
 
+        Vet myVet = new Vet();
+
     }
 }
