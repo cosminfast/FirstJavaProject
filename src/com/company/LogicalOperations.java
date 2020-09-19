@@ -39,4 +39,30 @@ public class LogicalOperations {
         }
         return "";
     }
+
+    public void printFromLowerToHigherNumber(int start, int end){
+        for (int i = start; i <= end; i++){
+            System.out.println(i);
+        }
+    }
+
+    public void printSumAndAverage(int startNumber, int endNumber){
+        int sum = 0;
+        float count = 0;
+        for (int i = startNumber; i <= endNumber; i++){
+            sum = sum + i;
+            count++;
+        }
+
+        System.out.println(sum);
+        System.out.println("Average is : " + (sum/count));
+    }
+
+    public void printToHundredWhile(int number){
+
+        while(number<=100){
+            System.out.println(number);
+            number++;
+        }
+    }
 }
