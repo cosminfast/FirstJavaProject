@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.List;
+
 public class LogicalOperations {
 
     //       Given two numbers,
@@ -52,6 +54,7 @@ public class LogicalOperations {
         for (int i = startNumber; i <= endNumber; i++){
             sum = sum + i;
             count++;
+
         }
 
         System.out.println(sum);
@@ -64,5 +67,52 @@ public class LogicalOperations {
             System.out.println(number);
             number++;
         }
+
     }
+
+    public int[] getArrayToNumber(int maxValue){
+
+        int[] myArray = new int[maxValue];
+
+        for (int i = 0; i < myArray.length; i++){
+            myArray[i] = i+1;
+//            System.out.println(myArray[i]);
+        }
+        return myArray;
+    }
+
+    public void printArray(int[] myArray){
+        for (int i : myArray){
+            System.out.println(i);
+        }
+    }
+
+    public float getAverageFromArray(int[] myArray){
+        float sum = 0;
+        for (int i = 0; i < myArray.length; i++){
+            sum = sum + myArray[i];
+        }
+        return sum/myArray.length;
+    }
+
+
+    public boolean isValueInArray(String[] array, String value){
+        for (int i = 0; i < array.length; i++){
+            if (array[i].equals(value)){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean isValueInList(List<String> myList, String value){
+        for (int i = 0; i< myList.size(); i++){
+            if (myList.get(i).equals(value)){
+                return true;
+            }
+        }
+        return false;
+
+    }
+
 }

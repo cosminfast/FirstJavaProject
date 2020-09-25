@@ -37,6 +37,9 @@ public class AppMain {
 
         Cat lizzy = new Cat();
         lizzy.setAge(1);
+        lizzy.setName("name");
+
+        System.out.println(lizzy.getAge());
 
 
     }
