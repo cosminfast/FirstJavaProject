@@ -11,4 +11,9 @@ public class BrittishTabby extends Cat {
     public void setShortHair(boolean shortHair) {
         this.shortHair = shortHair;
     }
+
+    @Override
+    public void sleep() {
+        System.out.println("Sleeps a lot");
+    }
 }

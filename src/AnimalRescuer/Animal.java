@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Animal {
+public abstract class Animal {
 
     private String name ;
     private String color ;
@@ -58,11 +58,11 @@ public class Animal {
     }
 
 
-    public void sleep(){
-        System.out.println("Sleeping...");
-    }
+    public abstract void sleep();
 
-    public void eat(){
-        System.out.println("Eating...");
-    }
+
+    public abstract void eat();
+
+
+    public abstract void run();
 }

@@ -3,18 +3,20 @@ package AnimalRescuer;
 public class AppMain {
 
     public static void main(String[] args) {
-        Dog myObject = new Dog();
-        myObject.setName("aa");
-        myObject.setName("");
-        myObject.setName("");
+//        Dog myObject = new Dog();
+//        myObject.setName("aa");
+//        myObject.setName("");
+//        myObject.setName("");
+//
+//        System.out.println("Catelul meu se numeste "+ myObject.getName() + " ");
+//
+//        myObject.eat();
 
-        System.out.println("Catelul meu se numeste "+ myObject.getName() + " ");
+       BrittishTabby bt = new BrittishTabby();
+       HalfBreed fb = new HalfBreed();
 
-        myObject.eat();
-
-        Dog myObject2 = new Dog();
-        myObject2.setName("rex");
-
+       bt.sleep();
+       fb.sleep();
 
 
 //        rex.eat();
@@ -33,13 +35,13 @@ public class AppMain {
 //        myThirdDog.name = "Grivei";
 //        System.out.println("Third dog name: " + myThirdDog.name);
 
-        Vet myVet = new Vet();
-
-        Cat lizzy = new Cat();
-        lizzy.setAge(1);
-        lizzy.setName("name");
-
-        System.out.println(lizzy.getAge());
+//        Vet myVet = new Vet();
+//
+//        Cat lizzy = new Cat();
+//        lizzy.setAge(1);
+//        lizzy.setName("name");
+//
+//        System.out.println(lizzy.getAge());
 
 
     }
